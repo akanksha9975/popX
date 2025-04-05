@@ -173,8 +173,15 @@ function CreateAccount() {
           </form>
         </div>
         
+        <div className="create-account-pagination">3of4</div>
       </div>
       
+      <button className="nav-arrow left-arrow" onClick={() => navigate('/login')}>
+        <FaArrowLeft />
+      </button>
+      <button className="nav-arrow right-arrow" onClick={() => navigate('/account-settings')}>
+        <FaArrowRight />
+      </button>
     </div>
   );
 }

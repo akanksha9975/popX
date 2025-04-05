@@ -45,8 +45,15 @@ function AccountSettings() {
           </div>
         </div>
         
+        <div className="account-settings-pagination">4of4</div>
       </div>
       
+      <button className="nav-arrow left-arrow" onClick={() => navigate('/create-account')}>
+        <FaArrowLeft />
+      </button>
+      <button className="nav-arrow right-arrow" disabled>
+        <FaArrowRight />
+      </button>
     </div>
   );
 }
