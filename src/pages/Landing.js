@@ -29,17 +29,9 @@ function Landing() {
           </div>
         </div>
         
-      
-        <div className="landing-pagination">1of4</div>
       </div>
       
     
-  <button className="nav-arrow left-arrow" disabled>
-        <FaArrowLeft />
-  </button>
-      <button className="nav-arrow right-arrow" onClick={() => navigate('/login')}>
-        <FaArrowRight />
-      </button>
     </div>
   );
 }
