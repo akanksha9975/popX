@@ -77,15 +77,8 @@ function Login() {
           </form>
         </div>
         
-        <div className="login-pagination">2of4</div>
       </div>
       
-      <button className="nav-arrow left-arrow" onClick={() => navigate('/')}>
-        <FaArrowLeft />
-      </button>
-      <button className="nav-arrow right-arrow" onClick={() => navigate('/create-account')}>
-        <FaArrowRight />
-      </button>
     </div>
   );
 }
